@@ -1,11 +1,20 @@
-# CLIExplorer
+```
+ _____  _     _____ _____           _                     
+/  __ \| |   |_   _|  ___|         | |                    
+| /  \/| |     | | | |____  ___ __ | | ___  _ __ ___ _ __ 
+| |    | |     | | |  __\ \/ / '_ \| |/ _ \| '__/ _ \ '__|
+| \__/\| |_____| |_| |___>  <| |_) | | (_) | | |  __/ |   
+ \____/\_____/\___/\____/_/\_\ .__/|_|\___/|_|  \___|_|   
+                             | |                          
+                             |_|    v 1.0.1 (beta)           
+```
 
 CLIExplorer is a lightweight terminal-based file browser for quick navigation and viewing file details directly from the command line.
 
 ## Version
-**1.0.0** (beta) – Initial release with table-based file listing, sorting, and basic navigation.
-
-More coming soon.
+**1.0.1** (beta)  
+Released: 2025-08-13  
+Type: Patch update (small fixes and improvements)
 
 ## Features
 - Browse files and folders in a clean table format
@@ -17,22 +26,16 @@ More coming soon.
 - Python 3.6+
 
 ## Usage
-Run:
+1. Download the files
+2. Edit `icons_path = Path(r"yourpath\icons.json")` and `icons_path = Path(r"yourpath\icons.json")` with your paths
+3. Run:
 ```bash
 python cliexplorer.py
 ```
 
 - `o <number>` – Open the selected file/folder
 - `o .` – Go up one folder level
-
-## OS Compatibility
-- **Fully supported**: Windows  
-  Uses `os.startfile()` to open files and `cls` to clear the console.
-- **Partial support**: Linux & macOS  
-  Replace:
-  - `os.startfile()` → `subprocess.run(["xdg-open", path])` (Linux) or `subprocess.run(["open", path])` (macOS)
-  - `cls` → `clear` (already handled in code via `os.name`)
-
+- `q` – Stop the program
 
 ## License
 MIT License.
