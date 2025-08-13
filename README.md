@@ -3,7 +3,7 @@
 CLIExplorer is a lightweight terminal-based file browser for quick navigation and viewing file details directly from the command line.
 
 ## Version
-**1.0.0** – Initial release with table-based file listing, sorting, and basic navigation.
+**1.0.0** (beta) – Initial release with table-based file listing, sorting, and basic navigation.
 
 More coming soon.
 
