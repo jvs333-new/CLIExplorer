@@ -37,5 +37,7 @@ python cliexplorer.py
 - `o .` – Go up one folder level
 - `q` – Stop the program
 
+![demo](.README/demo.gif)
+
 ## License
 MIT License.
